@@ -14,10 +14,6 @@ body {
 	margin-top: 5%;
 }
 
-/*.col-md-4 {
-	margin-bottom: 5%;
-} */
-
 .refresh-btn {
 	margin-top: 5%; 
 	margin-right: 15%;
@@ -44,6 +40,10 @@ body {
 	opacity: 1;
 }
 
+.nested-header-column {
+	margin-top: 2%;
+}
+
 p {
 	font-size: 16px;
   	line-height: 30px;
@@ -68,18 +68,26 @@ p {
 	color: #3B3A38; 
 }
 
-.navigation{
-	display: inline-block;
-	float:right;
-	margin: 2%;
+
+.align-text {
+	margin-top: 2%;
 }
 
-.navigation a {
+.align-text a {
 	color: #3B3A38;
-	opacity: 0.6;
 }
 
-.navigation a:hover {
+.align-text a:hover {
 	color: #FFB600; 
 }
 
+.align-text a:visited {
+	color: #3B3A38;
+}
+
+@media (max-width: 991px){	
+
+	#subHeader {
+		line-height: 30px;
+	}
+}
