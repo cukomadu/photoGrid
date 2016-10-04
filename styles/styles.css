@@ -10,7 +10,7 @@ body {
 
 /* CONTENT STYLES .................*/
 
-.row {
+.main-content {
 	margin-top: 5%;
 }
 
@@ -18,16 +18,16 @@ body {
 	margin-bottom: 5%;
 } */
 
-.text-center {
+.refresh-btn {
 	margin-top: 5%; 
 	margin-right: 15%;
 }
 
-.text-center a {
+.refresh-btn a {
 	color: #FFB600;
 }
 
-.text-center a:hover {
+.refresh-btn a:hover {
 	color: #3B3A38; 
 }
 
@@ -68,18 +68,18 @@ p {
 	color: #3B3A38; 
 }
 
-#navigation{
+.navigation{
 	display: inline-block;
 	float:right;
 	margin: 2%;
 }
 
-#navigation a {
+.navigation a {
 	color: #3B3A38;
 	opacity: 0.6;
 }
 
-#navigation a:hover {
+.navigation a:hover {
 	color: #FFB600; 
 }
 
