@@ -1,0 +1,85 @@
+/* BASE STYLES ....................*/
+
+* {
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+	background: #f3f3f3;
+}
+
+/* CONTENT STYLES .................*/
+
+.row {
+	margin-top: 5%;
+}
+
+/*.col-md-4 {
+	margin-bottom: 5%;
+} */
+
+.text-center {
+	margin-top: 5%; 
+	margin-right: 15%;
+}
+
+.text-center a {
+	color: #FFB600;
+}
+
+.text-center a:hover {
+	color: #3B3A38; 
+}
+
+#header {
+	color: #3B3A38;
+	font-size: 50px;
+	opacity: 1;
+	display: inline-block;
+}
+
+#subHeader {
+	color: #FFB600;
+	font-size: 25px;
+	opacity: 1;
+}
+
+p {
+	font-size: 16px;
+  	line-height: 30px;
+  	margin: 8px 0;
+  	color: #444444;
+}
+
+.add-space {
+	margin-top: 65px;
+}
+
+.footer {
+	text-align: center;
+	margin-top: 20px;
+}
+
+.footer-text a {
+	color: #FFB600;
+}
+
+.footer-text a:hover {
+	color: #3B3A38; 
+}
+
+#navigation{
+	display: inline-block;
+	float:right;
+	margin: 2%;
+}
+
+#navigation a {
+	color: #3B3A38;
+	opacity: 0.6;
+}
+
+#navigation a:hover {
+	color: #FFB600; 
+}
+
